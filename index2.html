@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/89446027b4.js" crossorigin="anonymous"></script>
+    <script src="./script/jquery-3.7.1.min.js"></script>
+    <script src="./script/bootstrap.min.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<style>
+    section{
+        width: 100%;
+        max-width: 1400px;
+        background-color: orange;
+        margin: auto;
+    }
+    .swiper-slide{
+        width: 100%;
+        max-width: 400px;
+        height: 600px;
+        background-color: #fff;
+        border-radius: 32px;
+    }
+    @media (orientation: landscape){
+      /*가로모드*/
+    }
+    @media (orientation: portrait){
+      /*세로모드 : 화면의 높이가 너비보다 큰 경우*/
+    }
+</style>
+</head>
+<body>
+
+    <div>
+        <figure>
+            <picture>
+                <source src="./" media="(min-width:1200px)">
+                <source src="./" media="(min-width:767px)">
+                <source src="./" media="(min-width:1px)">
+                <img src="./" alt="아이템1">
+            </picture>
+        </figure>
+    </div>
+
+    <!--
+    효과사이트 : swiper
+    -->
+<section>
+    <div class="section">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </section>
+
+
+</body>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+      //1024px 이상에서 5개 슬라이드 보여줌
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      }
+    }
+    });
+  </script>
+</html>

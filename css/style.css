@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Han+Sans&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Noto Sans", sans-serif; */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  position: fixed;
+}
+header>.left_list{
+  padding-left: 200px;
+  width: 500px;
+  height: 100%;
+  line-height: 100px;
+}
+header>.left_list>ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header>.right_list{
+  padding-right: 200px;
+  width: 500px;
+  height: 100%;
+  line-height: 100px;
+}
+header>.right_list>ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+header>.logo{
+  line-height: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 64px;
+  letter-spacing: 5px;
+  
+}
+header>.icon{
+  display: none;
+}
+main{
+  z-index: 9;
+  background: url(../img/그리드1/main\ item.jpg) no-repeat;
+
+  width: 100%;
+  height: 682px;
+}
+main>p{
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  padding-top: 100px;
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 96px;
+  
+}
+button{
+  display: block;
+}
+
+main > .button1{
+  width: 500px;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+  padding-top: 300px;
+}
+main .b1{
+  width: 206px;
+  height: 64px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+ border: none;
+  background-color: #d9d9d9;
+
+}
+main .b2{
+  width: 206px;
+  height: 64px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+ border: none;
+  background-color: #d9d9d9;
+
+}
+.main_bottom{
+  width: 100%;
+  height: 150px;
+  box-shadow: -1px 5px 5px gray;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.main_bottom .left{
+  width: 50%;
+  height: 100%;
+  background: url(../img/그리드1/main\ item2.png) no-repeat, url(../img/그리드1/main\ item3.png) no-repeat;
+  background-position: 80% 30px, 90% 30px;
+  border-right: 1px solid #000;
+}
+.main_bottom .right{
+  width: 50%;
+  height: 100%;
+  background: url(../img/그리드1/main\ item4.png) no-repeat, url(../img/그리드1/main\ item5.png) no-repeat;
+  background-position: 10% 30px, 20% 30px;
+}
+.main_bottom .left>p:first-of-type{
+padding-left: 55%;
+padding-top: 20px;
+font-size: 20px;
+font-family: "Noto Sans", sans-serif;
+color: #808080;
+}
+.main_bottom .left>p:last-of-type{
+  padding-left: 40%;
+  padding-top: 5px;
+  font-size: 32px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #000;
+  
+  }
+  .main_bottom .right>p:first-of-type{
+    padding-left: 40%;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    color: #808080;
+    }
+    .main_bottom .right>p:last-of-type{
+      padding-left: 40%;
+      padding-top: 5px;
+      font-size: 32px;
+      font-family: "Bebas Neue", sans-serif;
+      color: #000;
+      
+      }
+
+      .Program{
+        padding-top: 150px;
+        
+      }
+     
+
+      .Program>.title>h1{
+        display: flex;
+        justify-content: center;
+        font-size: 64px;
+      }
+      .Program>.title>p{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color: #808080;
+        padding-top: 20px;
+        padding-bottom: 150px;
+      }
+  
+      .background{
+        width: 40%;
+        height: 576px;
+        background: url(../img/그리드1/section1\ item1.jpg)no-repeat;
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        position: relative;
+      }
+      .background>p{
+        position: absolute;
+        top: 350px;
+        left: 50px;
+      }
+      .photo1{
+        display: flex;
+        align-items: end;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      .photo1>.pbox>p{
+       width: 350px;
+       height: 288px;
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 3px 3px 3px 5px #808080;
+      }
+      .photo2{
+        padding: 50px 0;
+
+      }
+
+      .photo3{
+        display: flex;
+        align-items: end;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      .photo3>.pbox2>p{
+       width: 350px;
+       height: 288px;
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 3px 3px 3px 5px #808080;
+      }
+      .background2{
+        width: 324px;
+        height: 288px;
+        background: url(../img/그리드1/section2\ item5.jpg)no-repeat;
+        
+      }
+      .background2>p:first-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        padding-top: 80px;
+
+      }
+      .background2>p:last-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 20px;
+        padding-top: 60px;
+      }
+      .background3{
+        width: 324px;
+        height: 288px;
+        background: url(../img/그리드1/section2\ item6.jpg)no-repeat;
+        
+      }
+      .background3>p:first-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        padding-top: 80px;
+
+      }
+      .background3>p:last-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 20px;
+        padding-top: 60px;
+      }
+      .ufc315{
+        width: 100%;
+        height: 50vh;
+        background: url(../img/그리드2/2\ section2\ item.jpg);
+        background-position: center;
+        margin: 50px 0;
+      }
+      .ufc315>h1{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 96px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+
+      }
+      .ufc315 > .button2{
+        width: 500px;
+        height: 64px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+      }
+      .ufc315 .b3{
+        width: 206px;
+        height: 64px;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+       border: none;
+        background-color: #d9d9d9;
+      
+      }
+      .ufc315 .b4{
+        width: 206px;
+        height: 64px;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+       border: none;
+        background-color: #d9d9d9;
+      
+      }
+      .photo4{
+        display: flex;
+        align-items: end;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+      }
+      .photo4>.pbox3>p{
+       width: 350px;
+       height: 288px;
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       box-shadow: 3px 3px 3px 5px #808080;
+      }
+
+      .background4{
+        width: 324px;
+        height: 288px;
+        background: url(../img/그리드1/section4\ item1.jpg)no-repeat;
+        
+      }
+      .background4>p:first-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+        padding-top: 80px;
+
+      }
+      .background4>p:last-of-type{
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 20px;
+        padding-top: 60px;
+      }
+
+      .background5{
+        width: 324px;
+        height: 288px;
+        background: url(../img/그리드1/section4\ item3.jpg)no-repeat;
+        color: #fff;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        padding-top: 80px;
+        margin-left: 50%;
+        margin-top: 50px;
+        
+      }
+      .more{
+        width: 200px;
+        height: 53px;
+        border: 1px solid #808080;
+        margin: 100px auto;
+        
+       }
+
+      footer{
+        width: 100%;
+        height: 400px;
+        background-color: #000;
+        color: #fff;
+        
+      }
+      footer>.footer_inner{
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      footer>.footer_inner>.footer_left{
+        padding-top: 20px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      footer>.footer_inner>.footer_right{
+        width: 15%;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+      }
+      footer>.footer_inner>.footer_right>p:first-of-type{
+        line-height: 50px;
+      }
+      footer>.footer_inner>.footer_right>p:last-of-type{
+        line-height: 50px;
+      }
+
+      
+     
+      
+
+
+
+
+     
+

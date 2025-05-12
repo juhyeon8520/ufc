@@ -1,0 +1,25 @@
+@media (max-width:1200px){
+	.Program{
+        gap: 50px 0;
+        
+      }
+
+	  header>.left_list{
+		display: none;
+	  }
+	  header>.right_list{
+		display: none;
+	  }
+	  header>.icon{
+		display: block;
+		line-height: 100px;
+		padding-right: 150px;
+		letter-spacing: 10px;
+	  }
+
+	  header>.logo{
+		padding-left: 200px;
+
+		
+	  }
+}
